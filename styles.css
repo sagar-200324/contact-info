@@ -1,0 +1,68 @@
+#card{
+    height: 400px;
+    width: 900px;
+    border: 2px solid black;
+  margin-top: 150px;
+  border-radius: 10px;
+  display: flex;
+}
+#image{
+    position: relative;
+    
+}
+#details{
+    height: 400px;
+    width: 900px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#name,#message,#phone,#mail{
+    margin-bottom: 30px;
+}
+#name,#mail,#phone{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 45px;
+    border-radius: 10px;
+    padding-left: 45px;
+   
+}
+#name-i,#mail-i,#phone-i{
+    
+    width :"10px";
+    position: relative;
+    left: 90px;
+    top:15px ;
+    
+
+}
+#name-card,#mail-card,#phone-card{
+    display: flex;
+ 
+}
+
+#message-card{
+    display:flex;
+    
+    
+}
+#message{
+    height: 100px;
+    width: 370px;
+    border-radius: 10px;
+    padding-left: 80px;
+}
+#message-i{
+    width :"10px";
+    position: relative;
+    left: 70px;
+    top:40px ;
+    
+    
+    
+}
+
+
